@@ -2,8 +2,33 @@
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
+
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
 }
 
 .feedbackButton {
   font-size: 16px;
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #e4dede;
+  background-color: #fdfcfc;
+  cursor: pointer;
+}
+
+.feedbackButton:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.feedbackButton:active {
+  background-color: blue;
+  color: white;
+}
+
+.feedbackButton.neutral {
+  margin-left: 10px;
+  margin-right: 10px;
 }

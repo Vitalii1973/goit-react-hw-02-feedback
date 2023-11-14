@@ -2,6 +2,11 @@
   margin: 20px 0;
 }
 
+.statisticsList {
+  list-style-type: none;
+  padding: 0;
+}
+
 .statisticsItem {
   font-size: 18px;
   margin-bottom: 10px;
